@@ -72,24 +72,30 @@ const Hero: React.FC = () => {
                <div className="w-3 h-3 rounded-full bg-green-500"></div>
              </div>
              <div className="font-mono text-sm leading-6">
-                <div className="text-slate-400">// 核心竞争力</div>
+                {/* <div className="text-slate-400">// 核心竞争力</div> */}
                 <div><span className="text-purple-400">class</span> <span className="text-yellow-300">WuShaoheng</span> <span className="text-purple-400">extends</span> <span className="text-blue-400">Developer</span> {'{'}</div>
                 <div className="pl-4">
-                  <span className="text-purple-400">private</span> <span className="text-red-400">String</span>[] skills = {'{'}
+                  <span className="text-purple-400">private</span> <span className="text-purple-400">static</span> <span className="text-red-400">String</span>[] skills = {'{'}
                 </div>
                 <div className="pl-8 text-green-400">
                   "Java", "Spring Cloud", "Redis",<br/>
                   "Docker", "AIGC", "High Concurrency"
                 </div>
                 <div className="pl-4">{'};'}</div>
-                <br/>
                 <div className="pl-4">
-                  <span className="text-purple-400">public</span> <span className="text-blue-400">Vision</span> <span className="text-yellow-300">getCode</span>() {'{'}
+                  <span className="text-purple-400">public</span> <span className="text-blue-400">Codes</span> <span className="text-yellow-300">getCode</span>() {'{'}
                 </div>
                 <div className="pl-8 text-slate-300">
-                  return <span className="text-green-400">"高效 & 稳健"</span>;
+                  return <span className="text-green-400">"高性能 & 高可用"</span>;
                 </div>
-                <div className="pl-4">{'}'}</div>
+                <div className="pl-4">{'};'}</div>
+                <div className="pl-4">
+                  <span className="text-purple-400">public</span> <span className="text-blue-400">Attitude</span> <span className="text-yellow-300">getAttitude</span>() {'{'}
+                </div>
+                <div className="pl-8 text-slate-300">
+                  return <span className="text-green-400">"严谨 & 热爱"</span>;
+                </div>
+                <div className="pl-4">{'};'}</div>
                 <div>{'}'}</div>
              </div>
           </div>
