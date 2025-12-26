@@ -16,10 +16,10 @@ const CanvasBackground: React.FC = () => {
     canvas.height = height;
 
     // Matrix characters (Katakana + Latin + Numbers)
-    const chars = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const chars = '011010';
     const charArray = chars.split('');
     
-    const fontSize = 14;
+    const fontSize = 11;
     const columns = width / fontSize;
     
     // Array to track the y position of each column
@@ -30,7 +30,7 @@ const CanvasBackground: React.FC = () => {
 
     const draw = () => {
       // Semi-transparent black to create trail effect
-      ctx.fillStyle = 'rgba(15, 23, 42, 0.05)'; // Slate-900 with low opacity
+      ctx.fillStyle = 'rgba(15, 23, 42, 0.1)'; // Slate-900 with low opacity
       ctx.fillRect(0, 0, width, height);
 
       ctx.font = `${fontSize}px 'JetBrains Mono'`;
@@ -54,7 +54,7 @@ const CanvasBackground: React.FC = () => {
       }
     };
 
-    const interval = setInterval(draw, 33);
+    const interval = setInterval(draw, 75);
 
     const handleResize = () => {
       width = window.innerWidth;
