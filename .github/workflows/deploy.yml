@@ -22,7 +22,7 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        ACCESS_TOKEN: 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
-        BRANCH: main
-        FOLDER: dist
-        CLEAN: true
+        token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages
+        folder: dist
+        clean: true
