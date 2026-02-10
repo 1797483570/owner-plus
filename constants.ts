@@ -1,7 +1,7 @@
 import { ExperienceItem, ProjectItem, SkillItem, AwardItem } from './types';
 
 export const PROFILE = {
-  name: "小伍",
+  name: "伍佰",
   title: "Java 高级开发工程师",
   email: "wsh1797@163.com",
   phone: "13030174427",
