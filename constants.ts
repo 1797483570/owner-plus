@@ -1,8 +1,8 @@
 import { ExperienceItem, ProjectItem, SkillItem, AwardItem } from './types';
 
 export const PROFILE = {
-  name: "伍绍恒",
-  title: "Java 后端开发工程师",
+  name: "小伍",
+  title: "Java 高级开发工程师",
   email: "wsh1797@163.com",
   phone: "13030174427",
   age: 24,

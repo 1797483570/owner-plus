@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
-            你好，我是 <br/>
+            你好，我叫 <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
               {PROFILE.name}
             </span>
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
              </div>
              <div className="font-mono text-sm leading-6">
                 {/* <div className="text-slate-400">// 核心竞争力</div> */}
-                <div><span className="text-purple-400">class</span> <span className="text-yellow-300">WuShaoheng</span> <span className="text-purple-400">extends</span> <span className="text-blue-400">Developer</span> {'{'}</div>
+                <div><span className="text-purple-400">class</span> <span className="text-yellow-300">XiaoWu</span> <span className="text-purple-400">extends</span> <span className="text-blue-400">Developer</span> {'{'}</div>
                 <div className="pl-4">
                   <span className="text-purple-400">private</span> <span className="text-purple-400">static</span> <span className="text-red-400">String</span>[] skills = {'{'}
                 </div>
